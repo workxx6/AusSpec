@@ -1,0 +1,123 @@
+body {
+	 margin:0;
+	 padding:0;
+}
+
+.container
+{
+max-width:1100px;
+margin:0 auto;
+}
+.header {
+  background-image: url("../images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.header-top {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+.logo {
+  display: inline-block;
+  width: 19%;
+  vertical-align: top;
+}
+.right-header
+{
+display:inline-block;
+width:80%;
+}
+.logo > img {
+  max-width: 196px;
+  width: 100%;
+}
+.menu li {
+  display: inline-block;
+}
+.search-over {
+  display: inline-block;
+  padding: 150px 0;
+  width: 100%;
+}
+.search-over h1 {
+  color: #fff;
+  display: inline-block;
+  font-size: 60px;
+  margin: 0 0 0 30px;
+  vertical-align: bottom;
+}
+.nav-collapse ul ul {
+  display: none;
+  left: 23px;
+  position: absolute;
+  top: 41px;
+  width: 100%;
+  z-index: 99999;
+}
+.nav-collapse ul li:hover ul {
+  display: block;
+}
+.nav-collapse ul li ul li {
+  width: 100%;
+}
+.nav-collapse ul ul a {
+  background: none repeat scroll 0 0 transparent !important;
+  padding: 0 !important;
+  text-align: left !important;
+  width: 100%;
+  display: block!important;
+}
+.search-over span {
+  display: inline-block;
+  padding-top: 50px;
+  text-align: right;
+  vertical-align: top;
+  width: 17%;
+}
+.fooetr {
+  background-image: url("../images/footer-bg.png");
+  background-size: 100% 100%;
+  min-height: 250px;
+  position: relative;
+}
+.footer-menu li {
+  display: inline-block;
+}
+.footer-menu ul li a {
+  color: #fff;
+  font-size: 11px;
+  padding: 0 15px;
+  text-decoration: none;
+}
+.footer-menu {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 50%;
+}
+.full-fooetr {
+  padding-top: 139px;
+  vertical-align: middle;
+}
+.PARTNER-button {
+  background: none repeat scroll 0 0 #5b778b;
+  color: #fff;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 90px;
+  text-align: center;
+  vertical-align: middle;
+  width: 40%;
+}
+.social-icon {
+  bottom: 14px;
+  display: inline-block;
+  position: absolute;
+  right: 88px;
+  width: 9%;
+}
+.social-icon li {
+  display: inline-block;
+  padding: 0 1px;
+}
+
