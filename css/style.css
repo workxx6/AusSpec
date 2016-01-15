@@ -1,3 +1,4 @@
+<<<<<<< ec8453b93eafb22a04f98748aed04d54add8a7f9
 body {
 	 margin:0;
 	 padding:0;
@@ -121,3 +122,120 @@ width:80%;
   padding: 0 1px;
 }
 
+=======
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+.clearfix{
+clear:both;
+}
+img{
+max-width:100%;
+}
+.container{
+width:100%;
+max-width:1100px;
+margin:auto;
+padding:0;
+}
+.wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.main {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/rock-texture.png");
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 100px;
+  width: 100%;
+}
+.left-section{
+float:left;
+width:60%;
+}
+.left-section h2 {
+  font-family: "Helvetica Neue";
+  font-size: 40px;
+  line-height: 35px;
+  max-width: 500px;
+  padding: 57px 0 27px;
+}
+.left-section h5 {
+  color: #000;
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+  font-weight: normal;
+  padding-bottom: 70px;
+  padding-right: 157px;
+}
+.left-section h3 {
+  color: #000;
+  font-family: "ProximaNova-Semibold";
+  font-size: 15px;
+  padding-right: 111px;
+  padding-top: 74px;
+}
+.left-section p {
+  color: #000;
+  font-family: "ProximaNova-Semibold";
+  font-size: 12px;
+  padding: 11px 123px 11px 0;
+}
+.left-section a {
+  color: #15bfeb;
+  font-size: 12px;
+  padding-right: 14px;
+  text-decoration: none;
+  vertical-align: middle;
+ font-family: 'Myriad Pro';
+}
+.button {
+  float: right;
+  padding-bottom: 28px;
+  padding-right: 126px;
+}
+.left-section img {
+  vertical-align: middle;
+}
+.right-section {
+  float: right;
+  font-family: "Helvetica Neue";
+  padding-left: 72px;
+  width: 40%;
+}
+.right-section h3{
+font-size:40px;
+color:#051521;
+}
+.right-section h3:first-child {
+  padding-top: 49px;
+}
+.right-section h4 {
+  color: #15bfeb;
+  font-size: 40px;
+  line-height: 22px;
+  padding-bottom: 13px;
+}
+.right-section p {
+  color: #051521;
+  font-size: 12px;
+  margin: 0;
+  padding-bottom: 25px;
+  padding-right: 35px;
+  padding-top: 6px;
+}
+span {
+  float: right;
+}
+.sub-main{
+width:100%;
+background-color:#e6e6e6;
+}
+>>>>>>> bd0014b05f5d715ea60a7808c474edcbebb9fc9c
