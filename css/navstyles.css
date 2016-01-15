@@ -61,13 +61,14 @@ body {
 }
 
 .nav-collapse a {
+  background: none repeat scroll 0 0 transparent;
+  border-bottom: 1px solid white;
   color: #fff;
+  float: left;
+  font-family: proximanova-semibold;
+  padding: 0.7em 1em;
   text-decoration: none;
   width: 100%;
-  background: transparent;
-  border-bottom: 1px solid white;
-  padding: 0.7em 1em;
-  float: left;
 }
 
 .nav-collapse .alt a {
